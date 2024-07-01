@@ -31,4 +31,8 @@ You'll need to install Go and [Bun](https://bun.sh/) for TS
 
 From a `.proto` file we can generate protobuf type definitions which we can use for message brokers and other asynchronous activities, and we can easily generate GRPC clients and servers with support for security and backoff/retry.
 
-`./run.sh` will give you a choice in each language to run the client or server
+`./run.sh` will give you a choice in each language to run the client or server  
+
+Have a look at [Buf](https://buf.build/docs/introduction) as an alternative to protoc  
+
+[gRPC-Gateway](https://grpc-ecosystem.github.io/grpc-gateway/) is an interesting project that extends protoc to create a JSON API too
